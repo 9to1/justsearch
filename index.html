@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JustSearch</title>
+    <h1>JustSearch - Search Now</h1>
+    <style>
+      /* CSS-Styling für Suchmaschinen-Layout */
+      #search-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+      }
+      #search-input {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        width: 500px;
+        font-size: 16px;
+      }
+      #search-button {
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        background-color: #4285f4;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        margin-left: 10px;
+      }
+      #results-container {
+        margin-top: 50px;
+      }
+      #results-container ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      #results-container li {
+        margin-bottom: 10px;
+      }
+      #results-container a {
+        color: #4285f4;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      #results-container a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="search-form">
+      <input type="text" id="search-input" placeholder="Search...">
+      <button id="search-button">Search</button>
+    </div>
+    <div id="results-container"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+  &copy; 2023 JustSearch » 9to1 - All rights reserved
+
+</html>
+
+
+
+
+
